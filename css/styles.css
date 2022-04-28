@@ -1,0 +1,17 @@
+:root {
+    --font-color: #595959;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a:hover {
+    color: white;
+    background-color: blue;
+}
