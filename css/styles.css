@@ -5,13 +5,22 @@
 nav ul {
     list-style-type: none;
     padding: 10px;
+    background-color:black;
 }
 
-nav li {
+nav li{
     display: inline;
+}
+nav a {
+    color:white;
+    text-decoration: none;
 }
 
 nav li a:hover {
-    color: white;
-    background-color: blue;
+    font-weight: bold;
+}
+
+#me {
+    max-width: 250px;
+    border-radius: 50%;
 }
