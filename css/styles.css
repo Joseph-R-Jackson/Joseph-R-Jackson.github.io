@@ -2,6 +2,11 @@
     --font-color: #595959;
 }
 
+body {
+    background-color: #F0F0F0;
+    color:black;
+}
+
 nav ul {
     list-style-type: none;
     padding: 10px;
@@ -37,3 +42,6 @@ nav li a:hover {
     align-items: center;
 }
 
+h1 {
+    size: 48pt;
+}
