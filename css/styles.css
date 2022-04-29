@@ -1,9 +1,10 @@
 body {
-    background-color: #F0F0F0;
-    color:black;
+    background-color: #EBEBEB;
+    color:#323232;
 }
 
 nav ul {
+    background-color: #6D6D6D;
     list-style-type: none;
     padding: 10px;
     margin: 0;
@@ -13,13 +14,15 @@ nav li{
     display: inline;
 }
 nav a {
-    color:black;
+    color:white;
     text-decoration: none;
     margin-right: 40px;
 }
 
 nav li a:hover {
     font-weight: bold;
+    background-color: black;
+    padding: 15px;
 }
 
 #me {
@@ -46,14 +49,26 @@ nav li a:hover {
 }
 
 h1 {
-    size: 48pt;
+    size: 15pt;
 }
 
 .fa-envelope, .fa-linkedin, .fa-github {
     color: black;
-
+    padding: 48px;
 }
 
 .fa-envelope:hover, .fa-linkedin:hover, .fa-github:hover {
     color:green;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#mvc-proj, #matrix-proj, #perm-proj {
+    background-color: #6D6D6D;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
 }
