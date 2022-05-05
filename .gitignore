@@ -2,9 +2,12 @@
 Thumbs.db
 Desktop.ini
 
-#Mac
+# Mac
 .DS_Store
 
-#General
+# VS Code
 .vs
 .vscode
+
+# Webstorm
+.idea

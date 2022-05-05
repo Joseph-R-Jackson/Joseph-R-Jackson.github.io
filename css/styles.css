@@ -48,7 +48,7 @@ nav li a:hover {
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    max-width: 700px;
+    max-width: 800px;
     right: 0;
     left: 0;
     margin-right: auto;
@@ -67,6 +67,7 @@ nav li a:hover {
 
 h1 {
     justify-content: center;
+    font-size: 36pt;
 }
 
 h1, h2{
@@ -76,13 +77,12 @@ h1, h2{
 
 #mvc-proj, #matrix-proj, #perm-proj {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     font-family: "Palatino", "times";
     background-color: #6D6D6D;
     border-radius: 15px;
     padding: 48px;
     margin: 20px;
-
 }
 
 #personal-info, #work-history {
@@ -97,9 +97,6 @@ h1, h2{
     margin-top: auto;
     margin-bottom: auto;
     background-color: #20368F;
-
-    display: flex;
-    justify-content: center;
 }
 
 a {
@@ -111,9 +108,24 @@ section a:hover {
     color: gray;
 }
 
-
 section:nth-child(even) {
     background-color: #829CD0;
     padding: 10px;
     border-radius: 10px;
+}
+
+.proj-pict {
+    display: flex;
+    max-width: 150px;           
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+section li, p{
+    padding: 5px;
+}
+
+.proj-text {
+    justify-content: center;
+    max-width: 1000px;
 }
