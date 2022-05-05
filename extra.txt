@@ -1,4 +1,0 @@
-* attractive fonts
-* smooth scrolling
-* banded website
-* attractive color scheme
