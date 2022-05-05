@@ -13,6 +13,7 @@ nav ul {
     padding: 10px;
     margin: 0px;
     align-self: flex-start;
+    border-radius: 5px;
 }
 
 nav li{
@@ -64,13 +65,18 @@ nav li a:hover {
     color:green;
 }
 
-h1, h2{
-    font-family: "Palatino", "times";
-    display: flex;
+h1 {
     justify-content: center;
 }
 
+h1, h2{
+    font-family: "Palatino", "times";
+    display: flex;
+}
+
 #mvc-proj, #matrix-proj, #perm-proj {
+    display: flex;
+    justify-content: center;
     font-family: "Palatino", "times";
     background-color: #6D6D6D;
     border-radius: 15px;
@@ -84,15 +90,30 @@ h1, h2{
 }
 
 .proj-redirect {
-    display:flex;
-    float:right;
-    background-color: red;
+    width: 90px;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #20368F;
+
+    display: flex;
+    justify-content: center;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+section a:hover {
+    color: gray;
+}
+
 
 section:nth-child(even) {
     background-color: #829CD0;
-}
-
-.highlight-color {
-    background-color:black;
+    padding: 10px;
+    border-radius: 10px;
 }
