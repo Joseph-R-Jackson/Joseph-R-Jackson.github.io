@@ -1,18 +1,24 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: #EBEBEB;
-    color:#323232;
+    font-family: "Courier New", times;
+    background-color: #F0F0F0;
 }
 
 nav ul {
     background-color: #6D6D6D;
     list-style-type: none;
     padding: 10px;
-    margin: 0;
+    margin: 0px;
+    align-self: flex-start;
 }
 
 nav li{
     display: inline;
 }
+
 nav a {
     color:white;
     text-decoration: none;
@@ -31,6 +37,7 @@ nav li a:hover {
 }
 
 #header {
+    font-family: "Palatino", "times";
     width: 100%;
     height: 600px;
 }
@@ -48,10 +55,6 @@ nav li a:hover {
     margin-top: 7%;
 }
 
-h1 {
-    size: 15pt;
-}
-
 .fa-envelope, .fa-linkedin, .fa-github {
     color: black;
     padding: 48px;
@@ -61,14 +64,35 @@ h1 {
     color:green;
 }
 
-h1 {
+h1, h2{
+    font-family: "Palatino", "times";
     display: flex;
     justify-content: center;
 }
 
 #mvc-proj, #matrix-proj, #perm-proj {
+    font-family: "Palatino", "times";
     background-color: #6D6D6D;
     border-radius: 15px;
-    padding: 10px;
-    margin: 10px;
+    padding: 48px;
+    margin: 20px;
+
+}
+
+#personal-info, #work-history {
+    padding: 48px;
+}
+
+.proj-redirect {
+    display:flex;
+    float:right;
+    background-color: red;
+}
+
+section:nth-child(even) {
+    background-color: #829CD0;
+}
+
+.highlight-color {
+    background-color:black;
 }
